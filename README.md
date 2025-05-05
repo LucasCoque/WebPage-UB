@@ -1,73 +1,61 @@
 
-# 🌐 Site Institucional da Universidade Brasil
+# 🦷 Site Institucional do Curso de Odontologia - Universidade Brasil
 
-Este projeto é um site institucional desenvolvido como parte de um trabalho acadêmico da disciplina de [NOME DA DISCIPLINA], com o objetivo de representar digitalmente as principais informações e serviços da Universidade Brasil, utilizando como base os sites da própria Universidade Brasil (UB), da Universidade Presbiteriana Mackenzie e da FIAP.
+Este projeto foi desenvolvido como parte das disciplinas de **Construção de WebSites** e **Engenharia de Software**, com o objetivo de criar um site institucional moderno, responsivo e funcional para divulgação do curso de **Odontologia** da Universidade Brasil.
 
 ## 📌 Objetivo
 
-O site tem como finalidade:
-- Informar sobre os cursos disponíveis (graduação, pós-graduação, etc.)
-- Apresentar notícias e eventos acadêmicos
-- Divulgar dados institucionais (história, missão, visão)
-- Fornecer canais de contato
-- Simular áreas de acesso para alunos e professores
+- Divulgar o curso de Odontologia da Universidade Brasil.
+- Apresentar informações relevantes para alunos e interessados.
+- Simular o acesso de professores à área restrita.
+- Aplicar conceitos de engenharia de software e desenvolvimento web.
 
 ## 🚀 Funcionalidades
 
-- Página inicial com banners e destaques
-- Página de cursos (com filtragem por tipo)
-- Página institucional (história, missão, visão)
-- Página de notícias e eventos
-- Página de contato com formulário
-- Simulação de acesso a portais (sem login real)
+### Páginas Institucionais
+- **Home (`index.html`)**: Apresentação do curso, banner de destaque, diferenciais e links para demais páginas.
+- **Professores (`professores.html`)**: Lista de docentes com foto, formação e área de atuação.
+- **Curso (`curso.html`)**: Vantagens do curso, grade curricular e laboratórios.
+- **Contato (`contato.html`)**: Formulário de contato com nome, telefone, e-mail, assunto e mensagem. Pode incluir mapa (Google Maps).
+
+### Páginas Funcionais
+- **Login do Professor (`login.html`)**: Simulação de autenticação com e-mail e senha, redirecionando para a área do professor.
+- **Área do Professor (`dashboard.html`)**: Tela protegida que exibe nome do professor, dados do curso e botões de navegação.
 
 ## 🧱 Tecnologias Utilizadas
 
 - HTML5  
 - CSS3  
 - JavaScript  
-- [Bootstrap](https://getbootstrap.com/) (framework de estilização)  
+- [Bootstrap](https://getbootstrap.com/) (estilização)  
 
-> 🔧 O projeto não utiliza banco de dados no momento, mas segue uma **arquitetura limpa**, facilitando a integração futura com back-end e persistência de dados.
+> 🔧 O projeto é estático, sem back-end real, mas com estrutura que permite futura expansão.
 
 ## 📂 Estrutura do Projeto
 
+
+
 ```
-/site-universidade/
+/site-odontologia/
 │
 ├── index.html
-├── cursos.html
-├── sobre.html
-├── noticias.html
+├── professores.html
+├── curso.html
 ├── contato.html
+├── login.html
+├── dashboard.html
 ├── /assets/
-│   ├── /css/
-│   ├── /js/
-│   └── /img/
-├── /docs/ (documentação opcional)
+│ ├── /css/
+│ ├── /js/
+│ └── /img/
 └── README.md
 ```
 
-## ⚙️ Como Executar o Projeto
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/SEU_USUARIO/site-universidade.git
-   ```
-
-2. Acesse a pasta do projeto:
-   ```bash
-   cd site-universidade
-   ```
-
-3. Abra o arquivo `index.html` no seu navegador ou use uma extensão como Live Server no VS Code.
 
 ## 📄 Documentação
 
-O projeto inclui:
-- Levantamento de requisitos funcionais e não funcionais
-- Estrutura modular para facilitar manutenção e expansão
-- Código comentado para fácil compreensão
+- **Engenharia de Software**: inclui matriz de requisitos (funcionais e não funcionais), diagrama de casos de uso e diagrama de classes.
+- **Construção de WebSites**: entrega do site completo em pasta compactada com imagens e código-fonte.
 
 ## 👨‍💻 Integrantes do Grupo
 
@@ -76,11 +64,11 @@ O projeto inclui:
 - Murillo Pereira Ignes  
 - Yuri Levi Estevam dos Santos  
 
-## 📝 Licença
+## 📅 Prazo de Entrega
 
-Este projeto é apenas para fins educacionais e não possui fins comerciais.  
-Você pode reutilizar o código desde que mantenha os devidos créditos.
+Entrega final no Teams até **06/06 às 23h59**.
 
 ---
 
 **Desenvolvido por alunos do curso de Análise e Desenvolvimento de Sistemas | Universidade Brasil**
+
